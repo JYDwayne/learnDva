@@ -5,7 +5,7 @@ import ProductList from '../components/ProductList';
 class Products extends Component {
 	handleDelete(id, dispatch) {
 		dispatch({
-	      type: 'products/delete',
+	      type: 'productsList/delete',
 	      payload: id,
 	    });
 	}

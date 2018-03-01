@@ -4,7 +4,7 @@ import './index.css';
 // 1. Initialize
 const app = dva({
    initialState: {
-    	products: [
+    productsList: [
       { name: 'dva', id: 1 },
       { name: 'antd', id: 2 },
       { name: 'football', id: 3 },
@@ -24,4 +24,3 @@ app.router(require('./router').default);
 
 // 5. Start
 app.start('#root');
-
